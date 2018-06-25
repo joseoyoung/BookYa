@@ -196,16 +196,15 @@ namespace BookYa
         private void timer3_Tick(object sender, EventArgs e)
         {
             count1 -= 1;
-            label4.Text = count1.ToString();
-            
+            label4.Text = count1.ToString();            
         }
       
 
         private void pictureBox14_Click(object sender, EventArgs e)
         {
           MessageBox.Show("미션 성공! 레벨 업~");
-          player.Stop();
-        
+          player.Stop();  
+            //주석
         }
 
     }
