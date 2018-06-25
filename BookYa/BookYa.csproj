@@ -235,5 +235,35 @@
   <ItemGroup>
     <None Include="Resources\rest.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\new_cla1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\new_cla2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\new_cla3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\new_cla4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\new_cla5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\new_cla6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\new_cla7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\new_cla8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\new_cla9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\new_cla10.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

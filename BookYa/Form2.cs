@@ -41,6 +41,7 @@ namespace BookYa
             t = new System.Timers.Timer();
             timer1.Interval = 1000;
 
+
             if (pictureBox1.Visible == true)
             {
                 pictureBox1.Visible = false;
@@ -86,6 +87,7 @@ namespace BookYa
                 label2.Visible = true;
                 timer2.Start();
 
+                pictureBox9.Enabled = true;
             }
 
             else if (pictureBox15.Visible == true)
@@ -117,18 +119,15 @@ namespace BookYa
                 pictureBox19.Visible = false;
                 pictureBox20.Visible = true;
             }
-
         }
+
         private void pictureBox9_Click(object sender, EventArgs e)
         {
             if (pictureBox9.Visible == true)
             {
                 pictureBox9.Visible = false;
                 pictureBox10.Visible = true;
-            }
-
-          
-
+            }      
         }
 
         private void pictureBox10_Click(object sender, EventArgs e)
@@ -165,7 +164,7 @@ namespace BookYa
                 pictureBox13.Visible = false;
                 pictureBox14.Visible = true;
 
-             
+                MessageBox.Show("    Mission Clear~");
             }
         }
         SoundPlayer player = new SoundPlayer();
@@ -188,22 +187,43 @@ namespace BookYa
                 timer3.Start();
                 pictureBox20.Visible = false;
                 pictureBox21.Visible = true;
+                pictureBox14.Visible = false;
+                pictureBox9.Visible = true;
+                pictureBox9.Enabled = false;
             }
         }
         public static int count1 = 30;
-   
+
 
         private void timer3_Tick(object sender, EventArgs e)
         {
             count1 -= 1;
-            label4.Text = count1.ToString();            
+            label4.Text = count1.ToString();
+
+            if(count1 == 0)
+            {
+                pictureBox21.Visible = false;
+                pictureBox1.Visible = true;
+                label3.Visible = false;
+                label4.Visible = false;
+                label1.Visible = true;
+                label2.Visible = true;
+                timer1.Enabled = true;
+                pictureBox1.Visible = false;
+                pictureBox23.Visible = true;
+
+
+                count = 90;
+                count -= 1;
+                timer2.Start();
+            }
+
         }
       
 
         private void pictureBox14_Click(object sender, EventArgs e)
         {
-          MessageBox.Show("미션 성공! 레벨 업~");
-          player.Stop();  
+      
             //주석
         }
 
