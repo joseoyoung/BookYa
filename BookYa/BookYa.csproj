@@ -1,0 +1,239 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{04CB9FA1-6293-43D6-94FD-BF7A6B4C6962}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>BookYa</RootNamespace>
+    <AssemblyName>BookYa</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3.Designer.cs">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3.resx">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Artboard 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\classroom.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\classroom2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\explain.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Home.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\speaker.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\게임 설명.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\나의 점수.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\main.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\게임 방법_설명1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\게임 방법_설명.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\main1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\start2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\start3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\start4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\start5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\start6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\start7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\start0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\start0_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\start0_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\start0_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\start0_4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\start0_5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\start00.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\main2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\main0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\main-angry.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\main01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\start1 %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\책20%25.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\책40%25.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\책60%25.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\책80%25.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\책100%25.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\책상-위-책.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\게임설명.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\합성00.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\합성01.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\합성02.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\합성03.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\합성04.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\합성05.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\합성06.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\빨간-불8.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rest.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
