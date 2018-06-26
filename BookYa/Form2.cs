@@ -164,7 +164,18 @@ namespace BookYa
                 pictureBox13.Visible = false;
                 pictureBox14.Visible = true;
 
-                MessageBox.Show("    Mission Clear~");
+                timer1.Stop();
+                timer2.Stop();
+                DialogResult dialogResult = MessageBox.Show("                미션 성공! \n   게임을 계속 진행하시겠습니까?", "", MessageBoxButtons.YesNo);
+                if (dialogResult == DialogResult.Yes)
+                {
+                    MessageBox.Show("2단계는 준비 중입니다!");
+                    this.Close();
+                }
+                else if (dialogResult == DialogResult.No)
+                {
+                    this.Close();
+                }
             }
         }
         SoundPlayer player = new SoundPlayer();
@@ -185,6 +196,7 @@ namespace BookYa
                 label3.Visible = true;
                 label4.Visible = true;
                 timer3.Start();
+
                 pictureBox20.Visible = false;
                 pictureBox21.Visible = true;
                 pictureBox14.Visible = false;
@@ -192,40 +204,40 @@ namespace BookYa
                 pictureBox9.Enabled = false;
             }
         }
+
         public static int count1 = 30;
-
-
         private void timer3_Tick(object sender, EventArgs e)
         {
+            pictureBox9.Enabled = false;
             count1 -= 1;
             label4.Text = count1.ToString();
 
             if(count1 == 0)
             {
                 pictureBox21.Visible = false;
-                pictureBox1.Visible = true;
                 label3.Visible = false;
                 label4.Visible = false;
                 label1.Visible = true;
                 label2.Visible = true;
-                timer1.Enabled = true;
-                pictureBox1.Visible = false;
-                pictureBox23.Visible = true;
+               
+                pictureBox2.Visible = false;
 
+                timer4.Enabled = true;
+                timer4.Start();
+                pictureBox9.Enabled = true;
 
                 count = 90;
                 count -= 1;
                 timer2.Start();
             }
-
         }
-      
 
         private void pictureBox14_Click(object sender, EventArgs e)
-        {
-      
+        {      
             //주석
         }
 
+        
+     
     }
 }
