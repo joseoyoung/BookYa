@@ -63,6 +63,36 @@ namespace BookYa.Properties {
         /// <summary>
         ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
         /// </summary>
+        internal static System.Drawing.Bitmap _36036776_644483842555050_8750489355811815424_n {
+            get {
+                object obj = ResourceManager.GetObject("36036776_644483842555050_8750489355811815424_n", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+        /// </summary>
+        internal static System.Drawing.Bitmap _36281881_644483839221717_7415658677501165568_n {
+            get {
+                object obj = ResourceManager.GetObject("36281881_644483839221717_7415658677501165568_n", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+        /// </summary>
+        internal static System.Drawing.Bitmap _36281894_644483855888382_6264264119667392512_n {
+            get {
+                object obj = ResourceManager.GetObject("36281894_644483855888382_6264264119667392512_n", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+        /// </summary>
         internal static System.Drawing.Bitmap Artboard_1 {
             get {
                 object obj = ResourceManager.GetObject("Artboard 1", resourceCulture);

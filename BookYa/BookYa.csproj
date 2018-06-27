@@ -266,5 +266,14 @@
   <ItemGroup>
     <None Include="Resources\new_cla10.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\36036776_644483842555050_8750489355811815424_n.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\36281881_644483839221717_7415658677501165568_n.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\36281894_644483855888382_6264264119667392512_n.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

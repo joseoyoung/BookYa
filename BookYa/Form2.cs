@@ -41,7 +41,6 @@ namespace BookYa
             t = new System.Timers.Timer();
             timer1.Interval = 1000;
 
-
             if (pictureBox1.Visible == true)
             {
                 pictureBox1.Visible = false;
@@ -84,31 +83,46 @@ namespace BookYa
                 pictureBox15.Visible = true;
 
                 label1.Visible = true;
-                label2.Visible = true;
-                timer2.Start();
-
-                pictureBox9.Enabled = true;
+                label2.Visible = true; //선생님 말 끝
+                timer2.Start(); // 수업시작
+                pictureBox9.Enabled = true; //책 찢기 가능
             }
+            //경고
+            //int timech = Convert.ToInt32(label2.Text);
 
-            else if (pictureBox15.Visible == true)
+            // MessageBox.Show(timech);
+
+            else if(pictureBox15.Visible == true)
             {
                 pictureBox15.Visible = false;
                 pictureBox16.Visible = true;
             }
 
-            else if (pictureBox16.Visible == true)
+            else if(pictureBox16.Visible == true)
             {
                 pictureBox16.Visible = false;
+                //pictureBox17.Visible = true;
+                error1.Visible = true;
+
+                //error1.Visible = true;
+                // error1.Visible = false;
+                //pictureBox17.Visible = true;
+            }
+
+            else if(error1.Visible ==true)
+            {
+                error1.Visible = false;
                 pictureBox17.Visible = true;
             }
 
-            else if (pictureBox17.Visible == true)
+            else if(pictureBox17.Visible == true)
             {
                 pictureBox17.Visible = false;
+                //pictureBox19.Visible = true;
                 pictureBox18.Visible = true;
             }
 
-            else if (pictureBox18.Visible == true)
+            else if(pictureBox18.Visible == true)
             {
                 pictureBox18.Visible = false;
                 pictureBox19.Visible = true;
@@ -119,15 +133,29 @@ namespace BookYa
                 pictureBox19.Visible = false;
                 pictureBox20.Visible = true;
             }
+
+            else if (pictureBox20.Visible == true)
+            {
+                pictureBox20.Visible = false;
+                error1.Visible = true;
+            }
         }
 
         private void pictureBox9_Click(object sender, EventArgs e)
         {
+
             if (pictureBox9.Visible == true)
             {
                 pictureBox9.Visible = false;
-                pictureBox10.Visible = true;
-            }      
+                
+                if(error1.Visible == true)
+                {
+                    timer2.Stop();
+                    MessageBox.Show("                미션 실패! \n   첫 단계 부터 다시 시작해주세요");
+                    this.Close();
+                }
+                
+            }
         }
 
         private void pictureBox10_Click(object sender, EventArgs e)
@@ -136,6 +164,13 @@ namespace BookYa
             {
                 pictureBox10.Visible = false;
                 pictureBox11.Visible = true;
+
+                if (error1.Visible == true)
+                {
+                    timer2.Stop();
+                    MessageBox.Show("                미션 실패! \n   첫 단계 부터 다시 시작해주세요");
+                    this.Close();
+                }
             }
         }
 
@@ -145,6 +180,13 @@ namespace BookYa
             {
                 pictureBox11.Visible = false;
                 pictureBox12.Visible = true;
+
+                if (error1.Visible == true)
+                {
+                    timer2.Stop();
+                    MessageBox.Show("                미션 실패! \n   첫 단계 부터 다시 시작해주세요");
+                    this.Close();
+                }
             }
         }
 
@@ -154,6 +196,13 @@ namespace BookYa
             {
                 pictureBox12.Visible = false;
                 pictureBox13.Visible = true;
+
+                if (error1.Visible == true)
+                {
+                    timer2.Stop();
+                    MessageBox.Show("                미션 실패! \n   첫 단계 부터 다시 시작해주세요");
+                    this.Close();
+                }
             }
         }
 
@@ -185,17 +234,24 @@ namespace BookYa
             count -= 1;
             label2.Text = count.ToString();
   
+                
             if(count == 0)
             {
                 timer2.Stop();
-                player.SoundLocation = @"C:\Users\Mirim\Desktop\IT쇼\bell.wav";
-                player.Play();
+                //player.SoundLocation = @"C:\Users\Mirim\Desktop\IT쇼\bell.wav";
+                //player.Play();
                 timer3.Enabled = false;
                 label1.Visible = false;
                 label2.Visible = false;
+
+                if(pictureBox14.Visible == false)
+                {
+                MessageBox.Show("        미션 실패");
+                timer2.Stop();
                 label3.Visible = true;
                 label4.Visible = true;
                 timer3.Start();
+                }
 
                 pictureBox20.Visible = false;
                 pictureBox21.Visible = true;
@@ -203,6 +259,16 @@ namespace BookYa
                 pictureBox9.Visible = true;
                 pictureBox9.Enabled = false;
             }
+
+            
+            //if (count < 30 && count % 5 == 0)
+            //{
+            //    error1.Visible = true;
+            //}
+            //if (count < 30 && count % 3 == 0)
+            //{
+            //    error1.Visible = false;
+            //}
         }
 
         public static int count1 = 30;
@@ -229,6 +295,8 @@ namespace BookYa
                 count = 90;
                 count -= 1;
                 timer2.Start();
+
+                
             }
         }
 
@@ -237,7 +305,18 @@ namespace BookYa
             //주석
         }
 
-        
+        public void time()
+        {
+            if (count != 90 && count % 10 == 0)
+            {
+                error1.Visible = true;
+            }
+            if (count % 9 == 0)
+            {
+                error1.Visible = false;
+            }
+        }
+
      
     }
 }

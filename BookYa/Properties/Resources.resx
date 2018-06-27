@@ -121,11 +121,26 @@
   <data name="main01" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\main01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="new_cla8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\new_cla8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Home" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Home.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="start7" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\start7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="explain" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\explain.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="new_cla7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\new_cla7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="main0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\main0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="start5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\start5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="빨간-불8" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\빨간-불8.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -139,6 +154,9 @@
   <data name="start0_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\start0_5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="new_cla1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\new_cla1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="main2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\main2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -148,14 +166,14 @@
   <data name="start2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\start2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="rest" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\rest.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="new_cla2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\new_cla2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="main" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\main.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="나의 점수" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\나의 점수.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="new_cla5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\new_cla5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="게임 방법_설명1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\게임 방법_설명.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -193,20 +211,23 @@
   <data name="main02" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\main01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="합성05" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\합성05.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="start00" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\start00.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="new_cla10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\new_cla10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="게임 방법_설명" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\게임 방법_설명.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="explain" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\explain.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="rest" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rest.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="main-angry" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\main-angry.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="new_cla3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\new_cla3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="main1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\main1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -217,8 +238,11 @@
   <data name="classroom2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\classroom2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="main0" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\main0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="start4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\start4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="new_cla9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\new_cla9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Artboard 1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Artboard 1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -232,8 +256,8 @@
   <data name="책40%" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\책40%.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="start5" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\start5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="나의 점수" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\나의 점수.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="합성03" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\합성03.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -250,8 +274,11 @@
   <data name="합성02" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\합성02.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="start4" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\start4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="new_cla4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\new_cla4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="합성05" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\합성05.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="합성04" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\합성04.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -259,34 +286,16 @@
   <data name="책80%" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\책80%.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="new_cla1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\new_cla1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="new_cla2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\new_cla2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="new_cla3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\new_cla3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="new_cla4" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\new_cla4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="new_cla5" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\new_cla5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="new_cla6" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\new_cla6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="new_cla7" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\new_cla7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="36036776_644483842555050_8750489355811815424_n" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\36036776_644483842555050_8750489355811815424_n.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="new_cla8" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\new_cla8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="36281881_644483839221717_7415658677501165568_n" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\36281881_644483839221717_7415658677501165568_n.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="new_cla9" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\new_cla9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="new_cla10" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\new_cla10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="36281894_644483855888382_6264264119667392512_n" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\36281894_644483855888382_6264264119667392512_n.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

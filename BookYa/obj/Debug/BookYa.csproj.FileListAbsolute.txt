@@ -69,3 +69,15 @@ C:\BookYa\BookYa\BookYa\obj\Debug\BookYa.csproj.GenerateResource.cache
 C:\BookYa\BookYa\BookYa\obj\Debug\BookYa.csproj.CoreCompileInputs.cache
 C:\BookYa\BookYa\BookYa\obj\Debug\BookYa.exe
 C:\BookYa\BookYa\BookYa\obj\Debug\BookYa.pdb
+C:\Users\PC\Desktop\BookYa\BookYa\bin\Debug\BookYa.exe.config
+C:\Users\PC\Desktop\BookYa\BookYa\bin\Debug\BookYa.exe
+C:\Users\PC\Desktop\BookYa\BookYa\bin\Debug\BookYa.pdb
+C:\Users\PC\Desktop\BookYa\BookYa\obj\Debug\BookYa.csprojAssemblyReference.cache
+C:\Users\PC\Desktop\BookYa\BookYa\obj\Debug\BookYa.Form1.resources
+C:\Users\PC\Desktop\BookYa\BookYa\obj\Debug\BookYa.Form2.resources
+C:\Users\PC\Desktop\BookYa\BookYa\obj\Debug\BookYa.Form3.resources
+C:\Users\PC\Desktop\BookYa\BookYa\obj\Debug\BookYa.Properties.Resources.resources
+C:\Users\PC\Desktop\BookYa\BookYa\obj\Debug\BookYa.csproj.GenerateResource.cache
+C:\Users\PC\Desktop\BookYa\BookYa\obj\Debug\BookYa.csproj.CoreCompileInputs.cache
+C:\Users\PC\Desktop\BookYa\BookYa\obj\Debug\BookYa.exe
+C:\Users\PC\Desktop\BookYa\BookYa\obj\Debug\BookYa.pdb
