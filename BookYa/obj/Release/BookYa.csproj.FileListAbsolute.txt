@@ -1,0 +1,11 @@
+C:\BookYa\BookYa\BookYa\bin\Release\BookYa.exe.config
+C:\BookYa\BookYa\BookYa\bin\Release\BookYa.exe
+C:\BookYa\BookYa\BookYa\bin\Release\BookYa.pdb
+C:\BookYa\BookYa\BookYa\obj\Release\BookYa.Form1.resources
+C:\BookYa\BookYa\BookYa\obj\Release\BookYa.Form2.resources
+C:\BookYa\BookYa\BookYa\obj\Release\BookYa.Form3.resources
+C:\BookYa\BookYa\BookYa\obj\Release\BookYa.Properties.Resources.resources
+C:\BookYa\BookYa\BookYa\obj\Release\BookYa.csproj.GenerateResource.cache
+C:\BookYa\BookYa\BookYa\obj\Release\BookYa.csproj.CoreCompileInputs.cache
+C:\BookYa\BookYa\BookYa\obj\Release\BookYa.exe
+C:\BookYa\BookYa\BookYa\obj\Release\BookYa.pdb
